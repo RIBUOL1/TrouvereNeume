@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://medmel.seai.uniroma1.it/resources/mei-Neumes_mm.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://medmel.seai.uniroma1.it/resources/mei-Neumes_mm.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+ <meiHead>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     A vos, Amors, plus q'a nule autre gent
+    </title>
+    <composer>
+     <persName role="creator">
+      Chastelain de Coucy
+     </persName>
+    </composer>
+    <respStmt>
+     <persName role="editor">
+      Roberto Ribuoli
+     </persName>
+    </respStmt>
+   </titleStmt>
+   <pubStmt>
+    <publisher>
+     <corpName role="publisher"/>
+    </publisher>
+    <date/>
+    <availability>
+     <useRestrict>
+      Public domain
+     </useRestrict>
+    </availability>
+   </pubStmt>
+   <seriesStmt>
+    <title/>
+   </seriesStmt>
+   <sourceDesc>
+    <source target="#U">
+     <locus>
+      19v
+     </locus>
+    </source>
+   </sourceDesc>
+   <notesStmt>
+    <annot label="musicalStructure" type="manual"/>
+   </notesStmt>
+  </fileDesc>
+  <encodingDesc>
+   <appInfo>
+    <application>
+     <name>
+      MedMel2MEI v2.0
+     </name>
+    </application>
+   </appInfo>
+   <classDecls>
+    <taxonomy type="clivis">
+     <category xml:id="clivis.type.1">
+      <desc>
+       A clivis composed of two glyphs, in the shape of two puncti.
+      </desc>
+     </category>
+     <category xml:id="clivis.type.2">
+      <desc>
+       A clivis composed of one glyph representing two descending ligated notes.
+      </desc>
+     </category>
+    </taxonomy>
+    <taxonomy type="pes">
+     <category xml:id="pes.type.1">
+      <desc>
+       A pes composed to two gliphs aligned vertically.
+      </desc>
+     </category>
+     <category xml:id="pes.type.2">
+      <desc>
+       A pes composed to two gliphs positioned one after the other.
+      </desc>
+     </category>
+     <category xml:id="pes.vertical.end">
+      <desc>
+       In a larger ligature, indicates the first of two gliphs aligned vertically.
+      </desc>
+     </category>
+     <category xml:id="pes.vertical.end">
+      <desc>
+       In a larger ligature, indicates the second of two gliphs aligned vertically.
+      </desc>
+     </category>
+    </taxonomy>
+    <taxonomy type="plica">
+     <category xml:id="plica.type.1">
+      <desc>
+       A plica (or liquescent note) composed of a punctus 
+            and two stems (or tails) positioned one on each side.
+      </desc>
+     </category>
+     <category xml:id="plica.type.2">
+      <desc>
+       A plica (or liquescent note) composed of a curved glyph 
+            and two stems (or tails) positioned one on each side.
+      </desc>
+     </category>
+     <category xml:id="plica.type.3">
+      <desc>
+       A plica (or liquescent note) composed of a curved glyph 
+            and one stems (or tail) positioned one on its left side.
+      </desc>
+     </category>
+     <category xml:id="plica.type.4">
+      <desc>
+       A plica (or liquescent note) composed of a curved glyph.
+      </desc>
+     </category>
+     <category xml:id="plica.type.5">
+      <desc>
+       An ascending plica (or liquescent note) composed of a punctus 
+            and a  stem (or tail) with a right-upwards position.
+      </desc>
+     </category>
+    </taxonomy>
+    <taxonomy type="porrectus">
+     <category xml:id="porrectus.type.1">
+      <desc>
+       A porrectus composed of two glyphs, the first of which represents two descending ligated notes, 
+            and the following is in the shape of a punctus positioned on the left of a connecting line.
+      </desc>
+     </category>
+     <category xml:id="porrectus.type.2">
+      <desc>
+       A porrectus composed of two glyphs, the first of which represents two descending ligated notes, 
+            and the following is in the shape of a punctus positioned on the right of a connecting line.
+      </desc>
+     </category>
+     <category xml:id="porrectus.type.3">
+      <desc>
+       A porrectus composed of three glyphs, 
+            all of which are positioned on the right of the preceding one.
+      </desc>
+     </category>
+    </taxonomy>
+    <taxonomy type="torculus">
+     <category xml:id="torculus.type.1">
+      <desc>
+       A torculus composed of three glyphs, 
+            the second of which is aligned vertically with respect to the preceding one.
+      </desc>
+     </category>
+     <category xml:id="torculus.type.2">
+      <desc>
+       A torculus composed of three glyphs, 
+            all of which are positioned on the right of the preceding one.
+      </desc>
+     </category>
+    </taxonomy>
+    <taxonomy type="climacus">
+     <category xml:id="climacus.type.1">
+      <desc>
+       A climacus composed of three glyphs, 
+            the first of which is in the shape of a virga, 
+            and the following two are puncti inclinati.
+      </desc>
+     </category>
+     <category xml:id="climacus.type.2">
+      <desc>
+       A climacus composed of three glyphs 
+            shaped as three connected puncti.
+      </desc>
+     </category>
+     <category xml:id="climacus.type.3">
+      <desc>
+       A climacus composed of two glyphs, 
+            the first of which represents two  descending ligated notes 
+            and the following is in the shape of a punctus.
+      </desc>
+     </category>
+     <category xml:id="climacus.type.4">
+      <desc>
+       A climacus composed of two glyphs, 
+            the first of which is in the shape of a punctus 
+            and the following represents two descending ligated notes.
+      </desc>
+     </category>
+    </taxonomy>
+    <taxonomy type="scandicus">
+     <category xml:id="scandicus.type.1">
+      <desc>
+       A scandicus composed of three glyphs, 
+            the second of which is aligned vertically with respect to the first, 
+            and the third is positioned on the right of the preceding one.
+      </desc>
+     </category>
+     <category xml:id="scandicus.type.2">
+      <desc>
+       A scandicus composed of three glyphs, 
+            the second of which is positioned on the right of the first, 
+            and the third is aligned vertically with respect to the second.
+      </desc>
+     </category>
+     <category xml:id="scandicus.type.3">
+      <desc>
+       A scandicus composed of three glyphs, 
+            all of which are positioned on the right of the preceding one.
+      </desc>
+     </category>
+    </taxonomy>
+   </classDecls>
+  </encodingDesc>
+  <workList>
+   <work>
+    <identifier>
+     Linker 38.1
+    </identifier>
+    <title>
+     A vos, Amors, plus q'a nule autre gent
+    </title>
+    <composer>
+     <persName role="composer">
+      Chastelain de Coucy
+     </persName>
+    </composer>
+    <langUsage>
+     <language xml:id="fr">
+      French
+     </language>
+    </langUsage>
+   </work>
+  </workList>
+  <manifestationList>
+   <manifestation xml:id="U">
+    <identifier>
+     U
+    </identifier>
+    <identifier>
+     Paris, Bibliothèque nationale de France, fr. 20050
+    </identifier>
+   </manifestation>
+  </manifestationList>
+ </meiHead>
+ <music meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+  <body>
+   <mdiv>
+    <score>
+     <scoreDef>
+      <staffGrp n="1">
+       <staffDef lines="4" n="1">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="2">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="3">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="4">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="5">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="6">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="7">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="8">
+        <label/>
+       </staffDef>
+      </staffGrp>
+     </scoreDef>
+     <section>
+      <staff>
+       <layer n="1">
+        <clef line="3" shape="C"/>
+        <keySig accid="f"/>
+        <syllable>
+         <syl>
+          A
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          vos,
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          A_
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mors,
+         </syl>
+         <neume class="#climacus.type.1" type="climacus">
+          <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+          <nc con="g" oct="3" pname="a" tilt="se"/>
+          <nc con="g" oct="3" pname="g" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          plus
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          q'a
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          nu_
+         </syl>
+         <neume class="#pes.type.1" type="pes">
+          <nc oct="3" pname="a"/>
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          le au_
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tre
+         </syl>
+         <neume class="#climacus.type.1" type="climacus">
+          <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+          <nc con="g" oct="3" pname="a" tilt="se"/>
+          <nc con="g" oct="3" pname="g" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          gent
+         </syl>
+         <neume type="pes subbipunctis">
+          <nc oct="3" pname="a"/>
+          <nc accid.ges="f" oct="3" pname="b"/>
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msSystemBreak"/>
+        <clef line="3" shape="C"/>
+        <keySig accid="f"/>
+        <syllable>
+         <syl>
+          est
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          bien
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          rai_
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          sons
+         </syl>
+         <neume class="#pes.type.1" type="pes">
+          <nc accid.ges="f" oct="3" pname="b"/>
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          que
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ma
+         </syl>
+         <neume class="#climacus.type.1" type="climacus">
+          <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+          <nc con="g" oct="3" pname="a" tilt="se"/>
+          <nc con="g" oct="3" pname="g" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          do_
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          lor
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          com_
+         </syl>
+         <neume class="#scandicus.type.1" type="scandicus">
+          <nc oct="3" pname="g"/>
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          plai_
+         </syl>
+         <neume type="climacus quadrisonico">
+          <nc oct="4" pname="c"/>
+          <nc oct="3" pname="b"/>
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          gne
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msSystemBreak"/>
+        <clef line="3" shape="C"/>
+        <keySig accid="f"/>
+        <syllable>
+         <syl>
+          car
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          il
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          m'es_
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tuet
+         </syl>
+         <neume class="#climacus.type.1" type="climacus">
+          <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+          <nc con="g" oct="3" pname="a" tilt="se"/>
+          <nc con="g" oct="3" pname="g" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          par_
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tir
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ou_
+         </syl>
+         <neume class="#pes.type.1" type="pes">
+          <nc oct="3" pname="a"/>
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tre_
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ie_
+         </syl>
+         <neume class="#climacus.type.1" type="climacus">
+          <nc oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+          <nc con="g" oct="3" pname="a" tilt="se"/>
+          <nc con="g" oct="3" pname="g" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ment
+         </syl>
+         <neume type="pes subbipunctis">
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="b"/>
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msSystemBreak"/>
+        <clef line="3" shape="C"/>
+        <keySig accid="f"/>
+        <syllable>
+         <syl>
+          et
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          des_
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          seu_
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          rer
+         </syl>
+         <neume class="#pes.type.1" type="pes">
+          <nc accid.ges="f" oct="3" pname="b"/>
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          de
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ma
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          dol_
+         </syl>
+         <neume class="#climacus.type.1" type="climacus">
+          <nc oct="3" pname="a" stem.dir="down" stem.pos="right"/>
+          <nc con="g" oct="3" pname="g" tilt="se"/>
+          <nc con="g" oct="3" pname="f" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ce
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          com_
+         </syl>
+         <neume class="#scandicus.type.1" type="scandicus">
+          <nc oct="3" pname="g"/>
+          <nc oct="3" pname="a"/>
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          pai_
+         </syl>
+         <neume type="climacus quadrisonico">
+          <nc oct="4" pname="c"/>
+          <nc accid.ges="f" oct="3" pname="b"/>
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          gne;
+         </syl>
+         <neume type="pes subbipunctis">
+          <nc oct="3" pname="a"/>
+          <nc accid.ges="f" oct="3" pname="b"/>
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msSystemBreak"/>
+        <clef line="3" shape="C"/>
+        <keySig accid="f"/>
+        <syllable>
+         <syl>
+          et
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          qant
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          li
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="d"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          perz
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="4" pname="c" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          n'aim
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          rien
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="d"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          qui
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          me
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          re_
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="3" pname="b" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mai_
+         </syl>
+         <neume type="climacus quadrisonico resupinus">
+          <nc oct="3" pname="b"/>
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="g"/>
+          <nc oct="3" pname="f"/>
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          gne
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msSystemBreak"/>
+        <clef line="3" shape="C"/>
+        <keySig accid="f"/>
+        <syllable>
+         <syl>
+          et
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          sa_
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          chiez
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          bien
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc accid.ges="f" ligated="true" oct="3" pname="b" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          a_
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mors
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          se_
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          u_
+         </syl>
+         <neume type="punctum">
+          <nc accid.ges="f" oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          re_
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ment
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msSystemBreak"/>
+        <clef line="3" shape="C"/>
+        <keySig accid="f"/>
+        <syllable>
+         <syl>
+          sainz
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          nus
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mo_
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ront
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="d"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          por
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="e"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          a_
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="d"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          voir
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          cuer
+         </syl>
+         <neume class="#pes.type.1" type="pes">
+          <nc oct="3" pname="b"/>
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          do_
+         </syl>
+         <neume class="#climacus.type.1" type="climacus">
+          <nc oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+          <nc con="g" oct="3" pname="a" tilt="se"/>
+          <nc con="g" oct="3" pname="g" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          lant
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="3" pname="g" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="f"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msSystemBreak"/>
+        <clef line="3" shape="C"/>
+        <keySig accid="f"/>
+        <syllable>
+         <syl>
+          ia_
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mais
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          per
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          moi
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          n'ier
+         </syl>
+         <neume type="punctum">
+          <nc oct="4" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          chan_
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tez
+         </syl>
+         <neume type="climacus pentafonico">
+          <nc oct="4" pname="d"/>
+          <nc oct="3" pname="b"/>
+          <nc oct="3" pname="a"/>
+          <nc oct="3" pname="g"/>
+          <nc oct="3" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          vers
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ne
+         </syl>
+         <neume type="punctum">
+          <nc oct="3" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          lais.
+         </syl>
+         <neume class="#clivis.type.1" type="clivis">
+          <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+          <nc ligated="true" oct="3" pname="g"/>
+         </neume>
+        </syllable>
+       </layer>
+       <annot>
+        Notes: the natural signs on 2.9, 3.8, 5.1, 7.2, 7.9 and the flat accidental at 3.1 are added by the hand of the corrector.
+The additional accidentals create noticeable inconstistencies in the melodic phrases repeated on l. 1 and 3, and 2 and 4.
+       </annot>
+      </staff>
+     </section>
+    </score>
+   </mdiv>
+  </body>
+ </music>
+</mei>
+

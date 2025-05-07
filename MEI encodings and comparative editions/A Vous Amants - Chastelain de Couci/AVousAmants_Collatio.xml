@@ -1,0 +1,5377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Neumes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Neumes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+ <meiHead>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     A vos, amans, plus que a nule autre gent
+    </title>
+    <composer>
+     <persName role="creator">
+      Chastelain de Coucy
+     </persName>
+    </composer>
+    <respStmt>
+     <persName role="editor">
+      Roberto Ribuoli
+     </persName>
+    </respStmt>
+   </titleStmt>
+   <pubStmt>
+    <publisher>
+     <corpName role="publisher"/>
+    </publisher>
+    <date/>
+    <availability>
+     <useRestrict>
+      Public domain
+     </useRestrict>
+    </availability>
+   </pubStmt>
+   <seriesStmt>
+    <title/>
+   </seriesStmt>
+   <sourceDesc>
+    <source xml:id="X">
+     <desc>
+      reading in target X locus 76v
+     </desc>
+    </source>
+    <source xml:id="V">
+     <desc>
+      reading in target V locus 80r
+     </desc>
+    </source>
+    <source xml:id="U">
+     <desc>
+      reading in target U locus 19v
+     </desc>
+    </source>
+    <source xml:id="T">
+     <desc>
+      reading in target T locus 155r
+     </desc>
+    </source>
+    <source xml:id="R">
+     <desc>
+      reading in target R locus 119r
+     </desc>
+    </source>
+    <source xml:id="P">
+     <desc>
+      reading in target P locus 39r-v
+     </desc>
+    </source>
+    <source xml:id="M">
+     <desc>
+      reading in target M locus 52v
+     </desc>
+    </source>
+    <source xml:id="O">
+     <desc>
+      reading in target O locus 4v
+     </desc>
+    </source>
+    <source xml:id="K">
+     <desc>
+      reading in target K locus 107b
+     </desc>
+    </source>
+    <source xml:id="A">
+     <desc>
+      reading in target A locus 153r
+     </desc>
+    </source>
+   </sourceDesc>
+  </fileDesc>
+  <workList>
+   <work>
+    <identifier>
+     Linker 38.1
+    </identifier>
+    <title>
+     A vos, amans, plus que a nule autre gent
+    </title>
+    <composer>
+     <persName role="composer">
+      Chastelain de Coucy
+     </persName>
+    </composer>
+    <langUsage>
+     <language xml:id="fr">
+      French
+     </language>
+    </langUsage>
+   </work>
+  </workList>
+  <manifestationList>
+   <manifestation xml:id="X">
+    <identifier>
+     X
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="V">
+    <identifier>
+     V
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="U">
+    <identifier>
+     U
+    </identifier>
+    <identifier>
+     Paris, Bibliothèque nationale de France, fr. 20050
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="T">
+    <identifier>
+     T
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="R">
+    <identifier>
+     R
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="P">
+    <identifier>
+     P
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="M">
+    <identifier>
+     M
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="O">
+    <identifier>
+     O
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="K">
+    <identifier>
+     K
+    </identifier>
+    <identifier>
+     Paris, Bibliothèque nationale de France, Arsenal, ms. 5198
+    </identifier>
+   </manifestation>
+   <manifestation xml:id="A">
+    <identifier>
+     A
+    </identifier>
+   </manifestation>
+  </manifestationList>
+ </meiHead>
+ <music meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+  <body>
+   <mdiv>
+    <score>
+     <scoreDef>
+      <staffGrp n="1">
+       <staffDef lines="4" n="1">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="2">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="3">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="4">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="5">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="6">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="7">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="8">
+        <label/>
+       </staffDef>
+      </staffGrp>
+     </scoreDef>
+     <section>
+      <staff>
+       <layer>
+        <clef line="1" shape="C"/>
+        <syllable>
+         <app>
+          <rdg source="#X #V #T #P #K #A">
+           <syl>
+            A
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #R">
+           <syl>
+            A
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            A_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P">
+           <syl>
+            vos
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #A">
+           <syl>
+            vous
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            vos,
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <syl>
+            vous
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            vous,
+           </syl>
+           <neume type="virga">
+            <nc oct="3" pname="a" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #T #P #K #A">
+           <syl>
+            a_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            a
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            A_
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <syl>
+            a_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            mans
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            mours
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            mors,
+           </syl>
+           <neume class="#climacus.type.1" type="climacus">
+            <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="a" tilt="se"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #P">
+           <syl>
+            mant
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #A">
+           <syl>
+            mant
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            mours
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            manz,
+           </syl>
+           <neume type="virga">
+            <nc oct="3" pname="a" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            plus
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #A">
+           <syl>
+            plus
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O">
+           <syl>
+            plus
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            ains
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            plus
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            que_a
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            qu'a
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            q'a
+           </syl>
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #A">
+           <syl>
+            k'a
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            qu'a
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#P #K">
+           <syl>
+            qu'a
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            qu'a
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #O #K">
+           <syl>
+            nule
+           </syl>
+           <neume class="#c1" type="scandicus">
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            nule
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            nu_
+           </syl>
+           <neume class="#pes.type.1" type="pes">
+            <nc oct="3" pname="a"/>
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            nul
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            nulle
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            nul
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            nulle
+           </syl>
+           <neume type="pes">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            au_
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T">
+           <syl>
+            au_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            le au_
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            au_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            au_
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            tre
+           </syl>
+           <neume type="clivis">
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            tre
+           </syl>
+           <neume type="plica">
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            tre
+           </syl>
+           <neume class="#climacus.type.1" type="climacus">
+            <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="a" tilt="se"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            tre
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            autre
+           </syl>
+           <neume type="plica">
+            <nc curve="c" oct="2" pname="g" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            tre_
+           </syl>
+           <neume class="#c2" type="climacus quadratus">
+            <nc class="#stem-left-down" oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            tre
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            gent
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #R">
+           <syl>
+            gent
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            gent
+           </syl>
+           <neume type="pes subbipunctis">
+            <nc oct="3" pname="a"/>
+            <nc accid.ges="f" oct="3" pname="b"/>
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            gent
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            gent
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            gent
+           </syl>
+           <neume class="#c2" type="plica">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="1" shape="C"/>
+        <syllable>
+         <app>
+          <rdg source="#X #V #P #K">
+           <syl>
+            est
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            est
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #A">
+           <syl>
+            est
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            et
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            es
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #V #T #K #A">
+           <syl>
+            bien
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            bien
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            il
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            il
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            bien
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #T #A">
+           <syl>
+            rai_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            re_
+           </syl>
+           <neume type="plica">
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            rai_
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            rai_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#P #K">
+           <syl>
+            re_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            rai_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            son
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            son
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            sons
+           </syl>
+           <neume class="#pes.type.1" type="pes">
+            <nc accid.ges="f" oct="3" pname="b"/>
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            sons
+           </syl>
+           <neume type="porrectus quadratus plicatus ascendens">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+            <nc class="#stem-right-up" curve="a" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            sons
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            sons
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            sons
+           </syl>
+           <neume class="#c3" type="porrectus quadratus">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            que
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            que
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            que
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            ke
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <syl>
+            que
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ke
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #T #P #K">
+           <syl>
+            ma
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            ma
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            ma
+           </syl>
+           <neume class="#climacus.type.1" type="climacus">
+            <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="a" tilt="se"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <syl>
+            ma
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ma
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="f"/>
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            do_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            do_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            do_
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            do_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+            <nc con="g" oct="2" pname="e" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            do_
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+            <nc con="g" oct="2" pname="e" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            do_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            do_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #T #K">
+           <syl>
+            lor
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            lour
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            lor
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            lour
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            leur
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O #A">
+           <syl>
+            lour
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            con_
+           </syl>
+           <neume type="scandicus quadrisonico">
+            <nc class="#pes-vertical-start" oct="2" pname="g"/>
+            <nc class="#pes-vertical-end" oct="2" pname="a"/>
+            <nc accid="f" class="#pes-vertical-start" oct="2" pname="b"/>
+            <nc class="#pes-vertical-end" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            con_
+           </syl>
+           <neume class="#c1" type="scandicus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            com_
+           </syl>
+           <neume class="#scandicus.type.1" type="scandicus">
+            <nc oct="3" pname="g"/>
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            com_
+           </syl>
+           <neume class="#c1" type="pes">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            con_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            com_
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="b"/>
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            con_
+           </syl>
+           <neume class="#c2" type="pes plicatus ascendens">
+            <nc oct="2" pname="g"/>
+            <nc class="#stem-right-up" curve="a" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #O #K">
+           <syl>
+            plai_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            plai_
+           </syl>
+           <neume type="plica">
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            plai_
+           </syl>
+           <neume type="climacus quadrisonico">
+            <nc oct="4" pname="c"/>
+            <nc oct="3" pname="b"/>
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            plai_
+           </syl>
+           <neume type="climacus quadrisonico">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            plai_
+           </syl>
+           <neume type="scandicus quadrisonico plicato descendens">
+            <nc oct="2" pname="f"/>
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc curve="c" oct="2" plicaType="2" pname="b" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            pai_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            plai_
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            ne
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #P">
+           <syl>
+            gne
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O #K">
+           <syl>
+            gne
+           </syl>
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            gne
+           </syl>
+           <neume type="pes subbipunctis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            gne
+           </syl>
+           <neume class="#c3" type="plica">
+            <nc class="#stem-left-down" curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ne
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="1" shape="C"/>
+        <syllable>
+         <app>
+          <rdg source="#X #V #P #O #K">
+           <syl>
+            quant
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            car
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            car
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            quar
+           </syl>
+           <neume class="#c2" type="climacus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            quar
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            kar
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          il
+         </syl>
+         <app>
+          <rdg source="#X #V #T #P #M #K #A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          m'es_
+         </syl>
+         <app>
+          <rdg source="#X #V #T #P #K #A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <neume type="plica duplex">
+            <nc oct="2" pname="a"/>
+            <nc class="#stem-left-down" curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          tuet
+         </syl>
+         <app>
+          <rdg source="#X #T #P #O #K">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume class="#climacus.type.1" type="climacus">
+            <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="a" tilt="se"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <neume type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          par_
+         </syl>
+         <app>
+          <rdg source="#X #K">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #P #M #A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #R #O">
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          tir
+         </syl>
+         <app>
+          <rdg source="#X #P #K">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #M #A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #O #K">
+           <syl>
+            ou_
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            ou_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            ou_
+           </syl>
+           <neume class="#pes.type.1" type="pes">
+            <nc oct="3" pname="a"/>
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            au_
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            ou_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            au_
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            ou_
+           </syl>
+           <neume class="#c2" type="scandicus liquescent">
+            <nc oct="2" pname="g"/>
+            <nc class="#stem-right-up" curve="a" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            or
+           </syl>
+           <neume type="pes">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #O #K">
+           <syl>
+            tre_
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #M">
+           <syl>
+            tre_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            tre_
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            tre_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            au_
+           </syl>
+           <neume type="clivis">
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            e_
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc accid="f" class="#stem-left-down" oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            e_
+           </syl>
+           <neume type="plica">
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            ie_
+           </syl>
+           <neume class="#climacus.type.1" type="climacus">
+            <nc oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="a" tilt="se"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            e_
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            e_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            e_
+           </syl>
+           <neume type="plica duplex">
+            <nc oct="2" pname="a"/>
+            <nc class="#stem-left-down" curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            e_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            tre_
+           </syl>
+           <neume type="plica duplex">
+            <nc oct="2" pname="a"/>
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          ment
+         </syl>
+         <app>
+          <rdg source="#X #P #K">
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #R">
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume type="pes subbipunctis">
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="b"/>
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M #A">
+           <neume type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="1" shape="C"/>
+        <syllable>
+         <syl>
+          et
+         </syl>
+         <app>
+          <rdg source="#X #V #K">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M #A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #M">
+           <syl>
+            des_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #K #A">
+           <syl>
+            de_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            des_
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            des_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            de_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            des_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #V #T #M #K">
+           <syl>
+            sev_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            seu_
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <syl>
+            sev_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            sev_
+           </syl>
+           <neume type="clivis">
+            <nc oct="3" pname="c"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ser_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #K">
+           <syl>
+            rer
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            rer
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            rer
+           </syl>
+           <neume class="#pes.type.1" type="pes">
+            <nc accid.ges="f" oct="3" pname="b"/>
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            rer
+           </syl>
+           <neume type="porrectus quadratus resupinus">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            rer
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            rer
+           </syl>
+           <neume type="clivis">
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            rer
+           </syl>
+           <neume type="porrectus plicato ascendens">
+            <nc class="#stem-left-down" ligated="true" oct="2" pname="a"/>
+            <nc ligated="true" oct="2" pname="g"/>
+            <nc class="#stem-right-up" curve="a" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            rer
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ver
+           </syl>
+           <neume class="#c3" type="porrectus quadratus">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          de
+         </syl>
+         <app>
+          <rdg source="#X #T #P #M #K">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R #O">
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <neume type="plica duplex">
+            <nc oct="2" pname="a"/>
+            <nc class="#stem-left-down" curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          ma
+         </syl>
+         <app>
+          <rdg source="#X #T #P #M #K">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #R">
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="f"/>
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            le_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            lo_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            dol_
+           </syl>
+           <neume class="#climacus.type.1" type="climacus">
+            <nc oct="3" pname="a" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+            <nc con="g" oct="3" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            lo_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+            <nc con="g" oct="2" pname="e" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            lo_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            lo_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            lo_
+           </syl>
+           <neume class="#c2" type="climacus quadratus">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            le_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            lo_
+           </syl>
+           <neume type="virga">
+            <nc oct="3" pname="g" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            dou_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            au
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #M #K">
+           <syl>
+            ial
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            ce
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            yalz
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            ial
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            aul
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            che
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            con_
+           </syl>
+           <neume type="scandicus quadrisonico">
+            <nc class="#pes-vertical-start" oct="2" pname="g"/>
+            <nc class="#pes-vertical-end" oct="2" pname="a"/>
+            <nc accid="f" class="#pes-vertical-start" oct="2" pname="b"/>
+            <nc class="#pes-vertical-end" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            con_
+           </syl>
+           <neume class="#c1" type="scandicus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            com_
+           </syl>
+           <neume class="#scandicus.type.1" type="scandicus">
+            <nc oct="3" pname="g"/>
+            <nc oct="3" pname="a"/>
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M">
+           <syl>
+            com_
+           </syl>
+           <neume class="#c1" type="pes">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            con_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#P #O">
+           <syl>
+            com_
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            con_
+           </syl>
+           <neume type="scandicus quadisonico">
+            <nc oct="3" pname="g" stem="none"/>
+            <nc oct="3" pname="a"/>
+            <nc accid.ges="f" class="#pes.vertical.start" oct="3" pname="b"/>
+            <nc class="#pes.vertical.end" oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            com_
+           </syl>
+           <neume class="#c2" type="pes plicatus ascendens">
+            <nc oct="2" pname="g"/>
+            <nc class="#stem-right-up" curve="a" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #O">
+           <syl>
+            pai_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            pai_
+           </syl>
+           <neume type="plica">
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            pai_
+           </syl>
+           <neume type="climacus quadrisonico">
+            <nc oct="4" pname="c"/>
+            <nc accid.ges="f" oct="3" pname="b"/>
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M">
+           <syl>
+            pai_
+           </syl>
+           <neume type="climacus quadrisonico">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            pai_
+           </syl>
+           <neume class="#c2" type="torculus plicatus">
+            <nc oct="2" pname="a">
+             <nc curve="c" oct="2" plicaType="2" pname="b" tilt="se">
+              <nc curve="c" oct="2" pname="a" tilt="se">
+               <liquescent/>
+              </nc>
+             </nc>
+            </nc>
+            <syllable>
+            </syllable>
+            <sb type="metricalLineBreak"/>
+            <sb type="msLineBreak"/>
+            <clef line="1" shape="C"/>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            ## here in the manuscript there is an extra f punctum that has been omitted, as it has no syllable to refer to and is clearly an error
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <sb type="metricalLineBreak"/>
+            <sb type="msLineBreak"/>
+            <clef line="1" shape="C"/>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <sb type="metricalLineBreak"/>
+            <sb type="msLineBreak"/>
+            <clef line="1" shape="C"/>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+             <syl>
+              mo_
+             </syl>
+             <neume type="punctum">
+              <nc oct="3" pname="c"/>
+             </neume>
+            </syllable>
+            <syllable>
+             <syl>
+              rut
+             </syl>
+             <neume type="virga">
+              <nc class="#stem-right-down" oct="3" pname="c"/>
+             </neume>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <sb type="metricalLineBreak"/>
+            <sb type="msLineBreak"/>
+            <clef line="1" shape="C"/>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+            <syllable>
+            </syllable>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            pain_
+           </syl>
+           <neume class="#climacus.type.1" type="climacus">
+            <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="a" tilt="se"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            pai_
+           </syl>
+           <neume class="#c2" type="climacus inclinatus resupinus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #O #K">
+           <syl>
+            gne
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            gne
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            gne;
+           </syl>
+           <neume type="pes subbipunctis">
+            <nc oct="3" pname="a"/>
+            <nc accid.ges="f" oct="3" pname="b"/>
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M">
+           <syl>
+            gne
+           </syl>
+           <neume type="pes subbipunctis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            gne
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+            <nc con="g" oct="2" pname="e" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ne
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="2" shape="C"/>
+        <syllable>
+         <app>
+          <rdg source="#X #P #O">
+           <syl>
+            et
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #M #A">
+           <syl>
+            et
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            et
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            et
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            et,
+           </syl>
+           <neume type="virga">
+            <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            se
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            se
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            qant
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M #O">
+           <syl>
+            quant
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            se
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            quant
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            la
+           </syl>
+           <neume type="clivis">
+            <nc oct="3" pname="e"/>
+            <nc oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            la
+           </syl>
+           <neume type="plica">
+            <nc curve="c" oct="3" pname="c" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            li
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            li
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            la
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            li
+           </syl>
+           <neume type="plica duplex">
+            <nc oct="3" pname="c"/>
+            <nc curve="c" oct="3" pname="c">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            la
+           </syl>
+           <neume type="plica duplex">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+            <nc curve="c" oct="3" pname="d" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            li
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P">
+           <syl>
+            pert
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #M">
+           <syl>
+            pert
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            perz
+           </syl>
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="4" pname="c" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            pert
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            pert
+           </syl>
+           <neume type="clivis">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            pert,
+           </syl>
+           <neume type="virga">
+            <nc oct="4" pname="c" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            pert
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            n'est
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T #M #A">
+           <syl>
+            n'est
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            n'aim
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            n'est
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            n'est
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            riens
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            rienz
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            rien
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #A">
+           <syl>
+            riens
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            riens
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            rienz
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            riens
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P">
+           <syl>
+            qui
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            qui
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            qui
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #A">
+           <syl>
+            ki
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            que
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            qui
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            qui
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            qui
+           </syl>
+           <neume type="virga">
+            <nc curve="c" oct="4" pname="e">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #K">
+           <syl>
+            me
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            me
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            me
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #A">
+           <syl>
+            me
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            mi
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#P #O">
+           <syl>
+            me
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            me
+           </syl>
+           <neume type="plica duplex">
+            <nc oct="2" pname="a"/>
+            <nc curve="c" oct="2" pname="a">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          re_
+         </syl>
+         <app>
+          <rdg source="#X">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="3" pname="b" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <neume type="plica">
+            <nc class="#stem-left-down" curve="c" oct="3" pname="d" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <neume type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <neume type="plica">
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <neume class="#plica.type.3" type="plica">
+            <nc oct="4" pname="d"/>
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P">
+           <syl>
+            mai_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            mai_
+           </syl>
+           <neume class="#c2" type="climacus quadratus">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            mai_
+           </syl>
+           <neume type="climacus quadrisonico resupinus">
+            <nc oct="3" pname="b"/>
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="g"/>
+            <nc oct="3" pname="f"/>
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M">
+           <syl>
+            mai_
+           </syl>
+           <neume type="pes subbipunctis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            mai_
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            mai_
+           </syl>
+           <neume type="pes subbipunctis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            main_
+           </syl>
+           <neume class="#climacus.type.1" type="climacus">
+            <nc accid.ges="f" oct="3" pname="b" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="a" tilt="se"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            mai_
+           </syl>
+           <neume type="climacus resupinus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          gne
+         </syl>
+         <app>
+          <rdg source="#X #P #K">
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g"/>
+            <nc con="g" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M">
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="f"/>
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <neume type="punctum">
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#O #A">
+           <neume class="#c2" type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="2" shape="C"/>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            et
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            et
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            et
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            si
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            et
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            et
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            si
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            et
+           </syl>
+           <neume type="virga">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #V #T #P #K">
+           <syl>
+            sa_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            sa_
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            sa_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            sa_
+           </syl>
+           <neume type="plica">
+            <nc curve="c" oct="2" pname="f">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            sai_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            sai_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          chiez
+         </syl>
+         <app>
+          <rdg source="#X #P #K #A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #T">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <neume type="pes">
+            <nc oct="2" pname="f"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <neume type="punctum">
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #T #P #M #A">
+           <syl>
+            bien
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            sien
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O">
+           <syl>
+            bien
+           </syl>
+           <neume class="#clivis.type.1" type="clivis">
+            <nc accid.ges="f" ligated="true" oct="3" pname="b" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            cien
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            bien,
+           </syl>
+           <neume type="virga">
+            <nc oct="3" pname="a" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #T #P #M">
+           <syl>
+            a_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #A">
+           <syl>
+            a_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            a_
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            a_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            a_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            A_
+           </syl>
+           <neume type="virga">
+            <nc oct="3" pname="a" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            mors
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            mors
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            mors
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #P">
+           <syl>
+            mors
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            mours
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            mours
+           </syl>
+           <neume type="porrectus plicato ascendens">
+            <nc class="#stem-left-down" ligated="true" oct="2" pname="a"/>
+            <nc ligated="true" oct="2" pname="g"/>
+            <nc class="#stem-right-up" curve="a" oct="2" pname="a">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            mours
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            mors,
+           </syl>
+           <neume type="virga">
+            <nc oct="3" pname="a" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            mours
+           </syl>
+           <neume type="scandicus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="b"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            ve_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            tout
+           </syl>
+           <neume class="#c1" type="scandicus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            se_
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            se_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            tout
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            ve_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            se_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            cer_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            cher_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#V #K">
+           <syl>
+            vra_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            u_
+           </syl>
+           <neume type="punctum">
+            <nc accid.ges="f" oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M">
+           <syl>
+            u_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            vra_
+           </syl>
+           <neume type="scandicus plicato descendens">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc curve="c" oct="2" plicaType="1" pname="b" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            ra_
+           </syl>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            tei_
+           </syl>
+           <neume type="punctum">
+            <nc accid="n" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            tai_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            raie_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            ie
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            re_
+           </syl>
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M">
+           <syl>
+            re_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            ie_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#P #K">
+           <syl>
+            ie_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            ne_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ne_
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P">
+           <syl>
+            ment
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #K">
+           <syl>
+            ment,
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O">
+           <syl>
+            ment
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M">
+           <syl>
+            ment
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            ment
+           </syl>
+           <neume class="#c2" type="porrectus plicato descendens">
+            <nc class="#stem-left-down" con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ment
+           </syl>
+           <neume type="pes">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="2" shape="C"/>
+        <syllable>
+         <app>
+          <rdg source="#X #K">
+           <syl>
+            se
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            s'ainz
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            sainz
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            s'aint
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            s'ainc
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            ce
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            s'ainc
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            s'ainz
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            s'ains
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #V #P #K">
+           <syl>
+            nus
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            nus
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #A">
+           <syl>
+            nus
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            nulz
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            nuls
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            nuls
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="b"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          mo_
+         </syl>
+         <app>
+          <rdg source="#X #V #P #K">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #R #O">
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #M #A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            rut
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #R #M">
+           <syl>
+            rut
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            ront
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            rut
+           </syl>
+           <neume type="porrectus quadratus resupinus">
+            <nc oct="3" pname="c"/>
+            <nc oct="2" pname="b"/>
+            <nc oct="3" pname="c"/>
+            <nc oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#P #K">
+           <syl>
+            rust
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            rut
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            roust
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P">
+           <syl>
+            por
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #M">
+           <syl>
+            pour
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O">
+           <syl>
+            por
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            por
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            pour
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            pour
+           </syl>
+           <neume type="virga">
+            <nc oct="4" pname="e" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            pour
+           </syl>
+           <neume type="pes">
+            <nc oct="3" pname="c"/>
+            <nc oct="3" pname="d"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          a_
+         </syl>
+         <app>
+          <rdg source="#X #P #K">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#V #M #A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O">
+           <neume type="punctum">
+            <nc oct="4" pname="d"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <neume type="punctum">
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            voir
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            mour
+           </syl>
+           <neume type="clivis">
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O">
+           <syl>
+            voir
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            voir
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            voir
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            voir
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="b"/>
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            voir
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          cuer
+         </syl>
+         <app>
+          <rdg source="#X #P #K">
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <neume class="#pes.type.1" type="pes">
+            <nc oct="3" pname="b"/>
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <neume class="#c2" type="pes plicato ascendens">
+            <nc oct="2" pname="g"/>
+            <nc class="#stem-right-up" curve="a" oct="2" pname="a">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <neume type="punctum">
+            <nc oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <syl>
+          do_
+         </syl>
+         <app>
+          <rdg source="#X #U #P #K">
+           <neume class="#c1" type="climacus">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+            <nc con="g" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#T #A">
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g"/>
+            <nc con="g" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <neume type="plica duplex">
+            <nc oct="2" pname="b"/>
+            <nc curve="c" oct="2" pname="b" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            lent
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g"/>
+            <nc con="g" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            land
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            lant
+           </syl>
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="3" pname="g" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            lent
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            leut
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#P #O">
+           <syl>
+            lant
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            lent
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="f"/>
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            lent,
+           </syl>
+           <neume class="#climacus.type.1" type="climacus">
+            <nc oct="3" pname="a" stem.dir="down" stem.pos="right"/>
+            <nc con="g" oct="3" pname="g" tilt="se"/>
+            <nc con="g" oct="3" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            lent
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+            <nc con="g" oct="2" pname="e" tilt="se"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="2" shape="C"/>
+        <syllable>
+         <app>
+          <rdg source="#X">
+           <syl>
+            ia_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            ia_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            ia_
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            dont
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            ia_
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            ja_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            donc
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            ia
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            ja_
+           </syl>
+           <neume type="virga">
+            <nc oct="3" pname="f" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            dont
+           </syl>
+           <neume type="virga">
+            <nc oct="2" pname="c"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P">
+           <syl>
+            mes
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            mes
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            mais
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            n'ert
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            mais
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#M #A">
+           <syl>
+            n'iert
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            mes
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            més
+           </syl>
+           <neume type="virga">
+            <nc oct="3" pname="g" stem.dir="down" stem.pos="right"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            par
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            par
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            per
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            pas
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            par
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#M #A">
+           <syl>
+            par
+           </syl>
+           <neume type="pes">
+            <nc oct="2" pname="f"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            par
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="a"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #M #K #A">
+           <syl>
+            moi
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            moi
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O">
+           <syl>
+            moi
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            moj
+           </syl>
+           <neume type="porrectus quadratus resupinus">
+            <nc class="#stem-left-down" oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+            <nc class="#pes-vertical-start" oct="2" pname="a"/>
+            <nc accid="f" class="#pes-vertical-end" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            moy
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            moi
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #K">
+           <syl>
+            n'iert
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            m'ert
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            n'ier
+           </syl>
+           <neume type="punctum">
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            mais
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            n'ert
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#P">
+           <syl>
+            m'ert
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            maiz
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            mert
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            es_
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            le_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            leuz
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            chan_
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            me_
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="f"/>
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            leus
+           </syl>
+           <neume type="punctum">
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            me_
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            le_
+           </syl>
+           <neume type="punctum">
+            <nc accid="n" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            me_
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P">
+           <syl>
+            us
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+            <nc oct="3" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            vers
+           </syl>
+           <neume class="#c2" type="scandicus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc accid="f" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            tez
+           </syl>
+           <neume type="climacus pentafonico">
+            <nc oct="4" pname="d"/>
+            <nc oct="3" pname="b"/>
+            <nc oct="3" pname="a"/>
+            <nc oct="3" pname="g"/>
+            <nc oct="3" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            us
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl/>
+           <neume type="gap">
+            <nc pname="0">
+             <gap/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            us
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+            <nc con="g" oct="2" pname="f"/>
+            <nc con="g" oct="2" pname="e"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            uz
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#K">
+           <syl>
+            üz
+           </syl>
+           <neume class="#scandicus.type.2" type="scandicus">
+            <nc oct="3" pname="a"/>
+            <nc accid.ges="f" oct="3" pname="b"/>
+            <nc oct="4" pname="c"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            us
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="f"/>
+            <nc oct="2" pname="e"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            vers
+           </syl>
+           <neume type="virga">
+            <nc accid="f" class="#stem-right-down" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            ne
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #O">
+           <syl>
+            vers
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            vers
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            vers
+           </syl>
+           <neume type="torculus resupinus">
+            <nc class="#stem-right-up" oct="2" pname="f"/>
+            <nc ligated="true" oct="2" pname="a"/>
+            <nc class="#pes-vertical-start" ligated="true" oct="2" pname="g"/>
+            <nc class="#pes-vertical-end" oct="2" pname="b"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            vers
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            sons
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #K">
+           <syl>
+            ne
+           </syl>
+           <neume class="#c1" type="climacus">
+            <nc class="#stem-right-down" oct="3" pname="c"/>
+            <nc accid="f" con="g" oct="2" pname="b" tilt="se"/>
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            la_
+           </syl>
+           <neume class="#c2" type="plica">
+            <nc curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#U">
+           <syl>
+            ne
+           </syl>
+           <neume type="punctum">
+            <nc oct="3" pname="a"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            ne
+           </syl>
+           <neume type="plica">
+            <nc oct="2" pname="a"/>
+            <nc class="#stem-left-down" curve="c" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            ne
+           </syl>
+           <neume type="plica duplex">
+            <nc oct="2" pname="a"/>
+            <nc curve="c" oct="2" pname="a">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            ne
+           </syl>
+           <neume class="#c2" type="torculus">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#O">
+           <syl>
+            ne
+           </syl>
+           <neume class="#c1" type="plica ascendens">
+            <nc curve="a" oct="2" pname="a" tilt="se">
+             <liquescent/>
+            </nc>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            ne
+           </syl>
+           <neume class="#c2" type="clivis">
+            <nc class="#stem-left-down" oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+        <syllable>
+         <app>
+          <rdg source="#X #P #O">
+           <syl>
+            lais
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="a"/>
+            <nc oct="2" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#V">
+           <syl>
+            is
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#U #K">
+           <syl>
+            lais.
+           </syl>
+           <neume class="#clivis.type.1" type="clivis">
+            <nc ligated="true" oct="3" pname="a" stem.dir="down" stem.pos="left"/>
+            <nc ligated="true" oct="3" pname="g"/>
+           </neume>
+          </rdg>
+          <rdg source="#T">
+           <syl>
+            lais
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#R">
+           <syl>
+            laiz
+           </syl>
+           <neume class="#c2" type="climacus inclinatus">
+            <nc con="g" oct="2" pname="a" tilt="se"/>
+            <nc con="g" oct="2" pname="g" tilt="se"/>
+            <nc con="g" oct="2" pname="f" tilt="se"/>
+           </neume>
+          </rdg>
+          <rdg source="#M">
+           <syl>
+            laiz
+           </syl>
+           <neume type="clivis">
+            <nc oct="2" pname="g"/>
+            <nc oct="2" pname="f"/>
+           </neume>
+          </rdg>
+          <rdg source="#A">
+           <syl>
+            lais
+           </syl>
+           <neume type="virga">
+            <nc class="#stem-right-down" oct="2" pname="f"/>
+           </neume>
+          </rdg>
+         </app>
+        </syllable>
+       </layer>
+      </staff>
+     </section>
+    </score>
+   </mdiv>
+  </body>
+ </music>
+</mei>
+

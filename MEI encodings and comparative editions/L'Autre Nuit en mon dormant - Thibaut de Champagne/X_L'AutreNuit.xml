@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Neumes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Neumes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>L'autre nuit en mon dormant</title>
+        <composer>
+          <persName role="creator">Thibaut IV Roi de Navarre</persName>
+        </composer>
+        <respStmt>
+          <persName role="editor">Roberto Ribuoli</persName>
+        </respStmt>
+      </titleStmt>
+      <pubStmt>
+        <publisher>
+          <corpName role="publisher"></corpName>
+        </publisher>
+        <date></date>
+        <availability>
+          <useRestrict>Public domain</useRestrict>
+        </availability>
+      </pubStmt>
+      <seriesStmt>
+        <title/>
+      </seriesStmt>
+      <sourceDesc>
+        <source target="#X">
+          <locus>10v</locus>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application>
+          <name>MedMel2MEI v2.0</name>
+        </application>
+      </appInfo>
+      <classDecls>
+        <taxonomy type="clivis"> 
+          <category xml:id="clivis.1"/>
+          <category xml:id="clivis.2"/>
+        </taxonomy>
+        <taxonomy type="pes">
+          <category xml:id="pes.1"/>
+          <category xml:id="pes.2"/>
+        </taxonomy>
+        <taxonomy type="align.vertical">
+          <category xml:id="align.vertical"/>
+        </taxonomy>
+        <taxonomy type="plica"> 
+          <category xml:id="plica.1"/>
+          <category xml:id="plica.2"/>
+          <category xml:id="plica.3"/>
+          <category xml:id="plica.4"/>
+          <category xml:id="plica.5"/>
+        </taxonomy>
+        <taxonomy type="porrectus"> 
+          <category xml:id="porrectus.1"/>
+          <category xml:id="porrectus.2"/>
+          <category xml:id="porrectus.3"/>
+        </taxonomy>
+        <taxonomy type="torculus"> 
+          <category xml:id="torculus.1"/>
+          <category xml:id="torculus.2"/>
+        </taxonomy>
+        <taxonomy type="climacus"> 
+          <category xml:id="climacus.1"/>
+          <category xml:id="climacus.2"/>
+          <category xml:id="climacus.3"/>
+          <category xml:id="climacus.4"/>
+        </taxonomy>
+        <taxonomy type="scandicus"> 
+          <category xml:id="scandicus.1"/>
+          <category xml:id="scandicus.2"/>
+          <category xml:id="scandicus.3"/>
+        </taxonomy>
+      </classDecls>
+    </encodingDesc>
+    <workList>
+      <work>
+        <identifier>Linker 240.32</identifier>
+        <title>L'autre nuit en mon dormant</title>
+        <composer>
+          <persName role="composer">Thibaut IV Roi de Navarre</persName>
+        </composer>
+        <langUsage>
+          <language xml:id="fr">French</language>
+        </langUsage>
+      </work>
+    </workList>
+    <manifestationList>
+      <manifestation xml:id="X">
+        <identifier>X</identifier>
+        <identifier>Paris, Bibliothèque nationale de France, n.a. fr. 1050</identifier>
+      </manifestation>
+    </manifestationList>
+  </meiHead>
+  <music xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp n="1">
+              <staffDef n="1" lines="4">
+                <label></label>
+              </staffDef>
+              <staffDef n="2" lines="4">
+                <label></label>
+              </staffDef>
+              <staffDef n="3" lines="4">
+                <label></label>
+              </staffDef>
+              <staffDef n="4" lines="4">
+                <label></label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <staff>
+              <layer n="1">
+                <clef shape="C" line="4"/>
+                <syllable>
+                  <syl wordpos="i">L'au</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">tre</syl>
+                  <neume type="pes" class="#pes.1">
+                    <nc pname="a" oct="3"/>
+                    <nc pname="b" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">nuit</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">en</syl>
+                  <neume type="plica" class="#plica.3">
+                    <nc pname="g" oct="3" curve="c">
+                      <liquescent/>
+                    </nc>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">mon</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">dor</syl>
+                  <neume type="virga">
+                    <nc pname="c" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">mant</syl>
+                  <neume type="pes pressus">
+                    <nc pname="d" oct="3"/>
+                    <nc pname="d" oct="3"/>
+                    <nc pname="e" oct="3" class="#align.vertical"/>
+                  </neume>
+                </syllable>
+                <divLine form="maior" loc="4"/>
+                <syllable>
+                  <syl wordpos="s">fui</syl>
+                  <neume type="scandicus" class="#scandicus.2">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="f" oct="3"/>
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">en</syl>
+                  <neume type="virga">
+                    <nc pname="e" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">grant</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">dou</syl>
+                  <neume type="virga">
+                    <nc pname="c" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="m">tan</syl>
+                  <neume type="scandicus flexus">
+                    <nc pname="d" oct="3"/>
+                    <nc pname="e" oct="3" class="#align.vertical"/>
+                    <nc pname="f" oct="3"/>
+                    <nc pname="e" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">ce</syl>
+                  <neume type="virga">
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <divLine form="maior" loc="6"/>
+                <sb type="metricalLineBreak"/>
+                <sb type="msSystemBreak"/>
+                <clef shape="C" line="4"/>
+                <syllable>
+                  <syl wordpos="s">d'un</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">jeu</syl>
+                  <neume type="pes" class="#pes.1">
+                    <nc pname="a" oct="3"/>
+                    <nc pname="b" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">par</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">ti</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="g" oct="3"/>
+                    <nc pname="f" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">en</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">chan</syl>
+                  <neume type="virga">
+                    <nc pname="c" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">tant</syl>
+                  <neume type="pes pressus">
+                    <nc pname="d" oct="3"/>
+                    <nc pname="d" oct="3"/>
+                    <nc pname="e" oct="3" class="#align.vertical"/>
+                  </neume>
+                </syllable>
+                <divLine form="maior" loc="4"/>
+                <syllable>
+                  <syl wordpos="s">et</syl>
+                  <neume type="scandicus" class="#scandicus.2">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="f" oct="3"/>
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">en</syl>
+                  <neume type="virga">
+                    <nc pname="e" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">grant</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">ba</syl>
+                  <neume type="virga">
+                    <nc pname="c" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="m">lan</syl>
+                  <neume type="scandicus flexus">
+                    <nc pname="d" oct="3"/>
+                    <nc pname="e" oct="3" class="#align.vertical"/>
+                    <nc pname="f" oct="3"/>
+                    <nc pname="e" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">ce</syl>
+                  <neume type="virga">
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <divLine form="maxima" loc="6"/>
+                <sb type="metricalLineBreak"/>
+                <sb type="msSystemBreak"/>
+                <clef shape="C" line="4"/>
+                <syllable>
+                  <syl wordpos="s">quant</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">a</syl>
+                  <neume type="pes" class="#pes.1">
+                    <nc pname="a" oct="3"/>
+                    <nc pname="b" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">mors</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="c" oct="4"/>
+                    <nc pname="b" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">me</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="b" oct="3"/>
+                    <nc pname="a" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">vint</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="g" oct="3"/>
+                    <nc pname="e" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">de</syl>
+                  <neume type="virga">
+                    <nc pname="f" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">vant</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <divLine form="maior" loc="4"/>
+                <syllable>
+                  <syl wordpos="s">qui</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">me</syl>
+                  <neume type="pes" class="#pes.1">
+                    <nc pname="a" oct="3"/>
+                    <nc pname="b" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">dist</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="c" oct="4"/>
+                    <nc pname="b" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">que</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="b" oct="3"/>
+                    <nc pname="a" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">vas</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="g" oct="3"/>
+                    <nc pname="e" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">quer</syl>
+                  <neume type="virga">
+                    <nc pname="f" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">rant</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <divLine form="maior" loc="6"/>
+                <sb type="metricalLineBreak"/>
+                <sb type="msSystemBreak"/>
+                <clef shape="C" line="4"/>
+                <syllable>
+                  <syl wordpos="s">trop</syl>
+                  <neume type="virga">
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">as</syl>
+                  <neume type="pes" class="#pes.1">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="f" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">co</syl>
+                  <neume type="virga">
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="m">ra</syl>
+                  <neume type="virga">
+                    <nc pname="a" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">ge</syl>
+                  <neume type="climacus" class="#climacus.1">
+                    <nc pname="f" oct="3"/>
+                    <nc pname="e" oct="3" tilt="se" con="g"/>
+                    <nc pname="d" oct="3" tilt="se" con="g"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">mo</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">vant</syl>
+                  <neume type="clivis" class="#clivis.2">
+                    <nc pname="d" oct="3"/>
+                    <nc pname="c" oct="3"/>
+                  </neume>
+                </syllable>
+                <divLine form="maior" loc="4"/>
+                <syllable>
+                  <syl wordpos="s">ce</syl>
+                  <neume type="virga">
+                    <nc pname="f" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">te</syl>
+                  <neume type="climacus" class="#climacus.1">
+                    <nc pname="e" oct="3"/>
+                    <nc pname="d" oct="3" tilt="se" con="g"/>
+                    <nc pname="c" oct="3" tilt="se" con="g"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="s">muet</syl>
+                  <neume type="pes" class="#pes.1">
+                    <nc pname="d" oct="3"/>
+                    <nc pname="e" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">d'en</syl>
+                  <neume type="pes" class="#pes.1">
+                    <nc pname="f" oct="3"/>
+                    <nc pname="g" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="m">fan</syl>
+                  <neume type="clivis clivis">
+                    <nc pname="f" oct="3"/>
+                    <nc pname="e" oct="3"/>
+                    <nc pname="e" oct="3"/>
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">ce</syl>
+                  <neume type="virga">
+                    <nc pname="d" oct="3"/>
+                  </neume>
+                </syllable>
+                <divLine form="maxima" loc="6"/>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

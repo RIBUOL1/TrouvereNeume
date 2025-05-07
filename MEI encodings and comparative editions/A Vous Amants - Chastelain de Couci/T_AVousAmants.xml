@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Neumes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-Neumes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+ <meiHead>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     A vous amant ains k'a nul autre gent
+    </title>
+    <composer>
+     <persName role="creator">
+      Chastelain de Coucy
+     </persName>
+    </composer>
+    <respStmt>
+     <persName role="editor">
+      Roberto Ribuoli
+     </persName>
+    </respStmt>
+   </titleStmt>
+   <pubStmt>
+    <publisher>
+     <corpName role="publisher"/>
+    </publisher>
+    <date/>
+    <availability>
+     <useRestrict>
+      Public domain
+     </useRestrict>
+    </availability>
+   </pubStmt>
+   <seriesStmt>
+    <title/>
+   </seriesStmt>
+   <sourceDesc>
+    <source target="#T">
+     <locus>
+      155r
+     </locus>
+    </source>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <appInfo>
+    <application>
+     <name>
+      MedMel2MEI
+     </name>
+    </application>
+   </appInfo>
+   <classDecls>
+    <taxonomy type="note-group-shapes">
+     <category xml:id="c1">
+      <desc>
+       Classes refer to the MedMel standard and define different shapes of a configuration of a note group.
+            This allow MEI documents to be exported (and imported) without information loss.
+      </desc>
+     </category>
+     <category xml:id="c2"/>
+     <category xml:id="c3"/>
+     <category xml:id="c4"/>
+     <category xml:id="c5"/>
+     <category xml:id="c6"/>
+    </taxonomy>
+    <taxonomy type="stems">
+     <category xml:id="stem-left-up"/>
+     <category xml:id="stem-left-down"/>
+     <category xml:id="stem-right-up"/>
+     <category xml:id="stem-right-down"/>
+     <category xml:id="stem-left-down-rights-down"/>
+     <category xml:id="stem-left-up-right-up"/>
+    </taxonomy>
+    <taxonomy type="pes">
+     <category xml:id="pes-vertical"/>
+    </taxonomy>
+   </classDecls>
+  </encodingDesc>
+  <workList>
+   <work>
+    <identifier>
+     Linker 38.1
+    </identifier>
+    <title>
+     A vous amant ains k'a nul autre gent
+    </title>
+    <composer>
+     <persName role="composer">
+      Chastelain de Coucy
+     </persName>
+    </composer>
+    <langUsage>
+     <language xml:id="fr">
+      French
+     </language>
+    </langUsage>
+   </work>
+  </workList>
+  <manifestationList>
+   <manifestation xml:id="T">
+    <identifier>
+     T
+    </identifier>
+   </manifestation>
+  </manifestationList>
+ </meiHead>
+ <music meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+  <body>
+   <mdiv>
+    <score>
+     <scoreDef>
+      <staffGrp n="1">
+       <staffDef lines="5" n="1">
+        <label/>
+       </staffDef>
+       <staffDef lines="5" n="2">
+        <label/>
+       </staffDef>
+       <staffDef lines="5" n="3">
+        <label/>
+       </staffDef>
+       <staffDef lines="5" n="4">
+        <label/>
+       </staffDef>
+       <staffDef lines="5" n="5">
+        <label/>
+       </staffDef>
+       <staffDef lines="5" n="6">
+        <label/>
+       </staffDef>
+       <staffDef lines="5" n="7">
+        <label/>
+       </staffDef>
+       <staffDef lines="4" n="8">
+        <label/>
+       </staffDef>
+      </staffGrp>
+     </scoreDef>
+     <section>
+      <staff>
+       <layer>
+        <clef line="4" shape="F"/>
+        <syllable>
+         <syl>
+          A
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          vous
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          a_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mant
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ains
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          k'a
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          nul
+         </syl>
+         <neume class="#c2" type="scandicus">
+          <nc oct="2" pname="g"/>
+          <nc oct="2" pname="a"/>
+          <nc accid="f" oct="2" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          au_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tre
+         </syl>
+         <neume type="clivis">
+          <nc oct="2" pname="a"/>
+          <nc oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          gent
+         </syl>
+         <neume class="#c2" type="clivis">
+          <nc class="#stem-left-down" oct="2" pname="g"/>
+          <nc oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <line x="0" x2="0" y="1" y2="3"/>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="4" shape="F"/>
+        <syllable>
+         <syl>
+          est
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          bien
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          rai_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          sons
+         </syl>
+         <neume type="porrectus quadratus plicatus ascendens">
+          <nc oct="2" pname="a"/>
+          <nc oct="2" pname="g"/>
+          <nc class="#stem-right-up" curve="a" oct="2" pname="a" tilt="se">
+           <liquescent/>
+          </nc>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ke
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ma
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          do_
+         </syl>
+         <neume class="#c1" type="climacus">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+          <nc con="g" oct="2" pname="e" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          lor
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          com_
+         </syl>
+         <neume class="#c1" type="pes">
+          <nc oct="2" pname="g"/>
+          <nc oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          plai_
+         </syl>
+         <neume type="climacus quadrisonico">
+          <nc class="#stem-right-down" oct="2" pname="b"/>
+          <nc con="g" oct="2" pname="a" tilt="se"/>
+          <nc con="g" oct="2" pname="g" tilt="se"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          gne
+         </syl>
+         <neume type="pes subbipunctis">
+          <nc class="#stem-left-down" oct="2" pname="g"/>
+          <nc oct="2" pname="a"/>
+          <nc con="g" oct="2" pname="g" tilt="se"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="4" shape="F"/>
+        <syllable>
+         <syl>
+          car
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          il
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          m'es_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tuet
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          par_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tir
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          au_
+         </syl>
+         <neume class="#c2" type="scandicus">
+          <nc oct="2" pname="g"/>
+          <nc oct="2" pname="a"/>
+          <nc accid="f" oct="2" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          tre_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          e_
+         </syl>
+         <neume class="#c2" type="clivis">
+          <nc class="#stem-left-down" oct="2" pname="a"/>
+          <nc oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ment
+         </syl>
+         <neume type="clivis">
+          <nc oct="2" pname="g"/>
+          <nc oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="4" shape="F"/>
+        <syllable>
+         <syl>
+          et
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          de_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          sev_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          rer
+         </syl>
+         <neume type="porrectus quadratus resupinus">
+          <nc class="#stem-left-down" oct="2" pname="a"/>
+          <nc oct="2" pname="g"/>
+          <nc oct="2" pname="a"/>
+          <nc accid="f" oct="2" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          de
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ma
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          lo_
+         </syl>
+         <neume class="#c1" type="climacus">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+          <nc con="g" oct="2" pname="e" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ial
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          com_
+         </syl>
+         <neume class="#c1" type="pes">
+          <nc oct="2" pname="g"/>
+          <nc oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          pai_
+         </syl>
+         <neume type="climacus quadrisonico">
+          <nc class="#stem-right-down" oct="2" pname="b"/>
+          <nc con="g" oct="2" pname="a" tilt="se"/>
+          <nc con="g" oct="2" pname="g" tilt="se"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          gne
+         </syl>
+         <neume type="pes subbipunctis">
+          <nc class="#stem-left-down" oct="2" pname="g"/>
+          <nc oct="2" pname="a"/>
+          <nc con="g" oct="2" pname="g" tilt="se"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="4" shape="F"/>
+        <syllable>
+         <syl>
+          et
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          quant
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="3" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          li
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          pert
+         </syl>
+         <neume type="clivis">
+          <nc oct="2" pname="a"/>
+          <nc oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          n'est
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          riens
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="3" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ki
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          me
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          re_
+         </syl>
+         <neume class="#c1" type="climacus">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+          <nc con="g" oct="2" pname="g" tilt="se"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mai_
+         </syl>
+         <neume type="pes subbipunctis">
+          <nc class="#stem-left-down" oct="2" pname="g"/>
+          <nc oct="2" pname="a"/>
+          <nc con="g" oct="2" pname="g" tilt="se"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          gne
+         </syl>
+         <neume class="#c2" type="clivis">
+          <nc class="#stem-left-down" oct="2" pname="f"/>
+          <nc oct="2" pname="e"/>
+         </neume>
+        </syllable>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="4" shape="F"/>
+        <syllable>
+         <syl>
+          si
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="e"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          sa_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          chiez
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          bien
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          a_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mors
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          se_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          u_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          re_
+         </syl>
+         <neume class="#c1" type="climacus">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+          <nc con="g" oct="2" pname="g" tilt="se"/>
+          <nc con="g" oct="2" pname="f" tilt="se"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ment
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <line x="0" x2="0" y="0" y2="2"/>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="4" shape="F"/>
+        <syllable>
+         <syl>
+          s'aint
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          nus
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="a"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mo_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          rut
+         </syl>
+         <neume type="porrectus quadratus resupinus">
+          <nc oct="3" pname="c"/>
+          <nc oct="2" pname="b"/>
+          <nc oct="3" pname="c"/>
+          <nc oct="3" pname="d"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          por
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="3" pname="c"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          a_
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          voir
+         </syl>
+         <neume type="clivis">
+          <nc oct="2" pname="a"/>
+          <nc oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          cuer
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          do_
+         </syl>
+         <neume class="#c2" type="clivis">
+          <nc class="#stem-left-down" oct="2" pname="g"/>
+          <nc oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          lent
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="e"/>
+         </neume>
+        </syllable>
+        <line x="0" x2="0" y="0" y2="2"/>
+        <sb type="metricalLineBreak"/>
+        <sb type="msLineBreak"/>
+        <clef line="4" shape="F"/>
+        <syllable>
+         <syl>
+          dont
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="e"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          n'ert
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          pas
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          moj
+         </syl>
+         <neume type="porrectus quadratus resupinus">
+          <nc class="#stem-left-down" oct="2" pname="a"/>
+          <nc oct="2" pname="g"/>
+          <nc class="#pes-vertical-start" oct="2" pname="a"/>
+          <nc accid="f" class="#pes-vertical-end" oct="2" pname="b"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          mais
+         </syl>
+         <neume type="clivis">
+          <nc oct="2" pname="a"/>
+          <nc oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          me_
+         </syl>
+         <neume class="#c2" type="clivis">
+          <nc class="#stem-left-down" oct="2" pname="f"/>
+          <nc oct="2" pname="e"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          us
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          vers
+         </syl>
+         <neume type="virga">
+          <nc class="#stem-right-down" oct="2" pname="g"/>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          ne
+         </syl>
+         <neume type="plica">
+          <nc oct="2" pname="a"/>
+          <nc class="#stem-left-down" curve="c" oct="2" pname="a" tilt="se">
+           <liquescent/>
+          </nc>
+         </neume>
+        </syllable>
+        <syllable>
+         <syl>
+          lais
+         </syl>
+         <neume type="clivis">
+          <nc oct="2" pname="g"/>
+          <nc oct="2" pname="f"/>
+         </neume>
+        </syllable>
+        <line x="0" x2="0" y="0" y2="3"/>
+       </layer>
+      </staff>
+     </section>
+    </score>
+   </mdiv>
+  </body>
+ </music>
+</mei>
+
